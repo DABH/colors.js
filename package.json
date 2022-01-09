@@ -1,5 +1,5 @@
 {
-    "name": "colors",
+    "name": "@dabh/colors",
     "description": "get colors in your node.js console",
     "version": "1.4.0",
     "author": "Marak Squires",
