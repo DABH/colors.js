@@ -10,7 +10,7 @@ Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  
 
 ## Installation
 
-    npm install colors
+    npm install @colors/colors
 
 ## colors and styles!
 
