@@ -1,6 +1,6 @@
-# colors.js
+# @colors/colors ("colors.js")
 [![Build Status](https://github.com/DABH/colors.js/actions/workflows/ci.yml/badge.svg)](https://github.com/DABH/colors.js/actions/workflows/ci.yml)
-[![version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/@dabh/colors)
+[![version](https://img.shields.io/npm/v/@colors/colors.svg)](https://www.npmjs.org/package/@colors/colors)
 
 Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback.
 
@@ -82,12 +82,12 @@ Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  
 
 ## Usage
 
-By popular demand, `colors` now ships with two types of usages!
+By popular demand, `@colors/colors` now ships with two types of usages!
 
 The super nifty way
 
 ```js
-var colors = require('colors');
+var colors = require('@colors/colors');
 
 console.log('hello'.green); // outputs green text
 console.log('i like cake and pies'.underline.red); // outputs red underlined text
@@ -100,7 +100,7 @@ console.log('Run the trap'.trap); // Drops the bass
 or a slightly less nifty way which doesn't extend `String.prototype`
 
 ```js
-var colors = require('colors/safe');
+var colors = require('@colors/colors/safe');
 
 console.log(colors.green('hello')); // outputs green text
 console.log(colors.red.underline('i like cake and pies')); // outputs red underlined text
@@ -132,7 +132,7 @@ FORCE_COLOR=1 node myapp.js
 Or in code:
 
 ```javascript
-var colors = require('colors');
+var colors = require('@colors/colors');
 colors.enable();
 colors.disable();
 ```
@@ -151,7 +151,7 @@ console.log(colors.green('Hello %s'), name);
 
 ```js
 
-var colors = require('colors');
+var colors = require('@colors/colors');
 
 colors.setTheme({
   silly: 'rainbow',
@@ -176,7 +176,7 @@ console.log("this is a warning".warn);
 ### Using string safe API
 
 ```js
-var colors = require('colors/safe');
+var colors = require('@colors/colors/safe');
 
 // set single property
 var error = colors.red;
@@ -207,7 +207,7 @@ console.log(colors.warn("this is a warning"));
 ### Combining Colors
 
 ```javascript
-var colors = require('colors');
+var colors = require('@colors/colors');
 
 colors.setTheme({
   custom: ['red', 'underline']
