@@ -1,8 +1,8 @@
 {
-    "name": "@dabh/colors",
+    "name": "@colors/colors",
     "description": "get colors in your node.js console",
     "version": "1.4.0",
-    "author": "Marak Squires",
+    "author": "DABH",
     "contributors": [
         {
             "name": "DABH",

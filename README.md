@@ -1,8 +1,8 @@
 # colors.js
-[![Build Status](https://travis-ci.org/Marak/colors.js.svg?branch=master)](https://travis-ci.org/Marak/colors.js)
+[![Build Status](https://github.com/DABH/colors.js/actions/workflows/ci.yml/badge.svg)](https://github.com/DABH/colors.js/actions/workflows/ci.yml)
 [![version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/@dabh/colors)
 
-Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback, and check the `develop` branch for the latest bleeding-edge updates.
+Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback.
 
 ## get color and style in your node.js console
 
@@ -140,9 +140,9 @@ colors.disable();
 ## Console.log [string substitution](http://nodejs.org/docs/latest/api/console.html#console_console_log_data)
 
 ```js
-var name = 'Marak';
+var name = 'Beowulf';
 console.log(colors.green('Hello %s'), name);
-// outputs -> 'Hello Marak'
+// outputs -> 'Hello Beowulf'
 ```
 
 ## Custom themes
