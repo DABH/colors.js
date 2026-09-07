@@ -1,7 +1,7 @@
 {
     "name": "@colors/colors",
     "description": "get colors in your node.js console",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "author": "DABH",
     "contributors": [
         {
@@ -34,6 +34,7 @@
         "examples",
         "lib",
         "LICENSE",
+        "DISTRIBUTION.md",
         "safe.js",
         "themes",
         "index.d.ts",
