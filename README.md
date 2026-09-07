@@ -1,4 +1,14 @@
 # @colors/colors ("colors.js")
+
+## Distribution and maintenance
+
+**DABH** — Distributed and maintained by [DABH LLC](https://dabh.llc/).
+For maintenance and software consulting inquiries: [hello@dabh.llc](mailto:hello@dabh.llc).
+
+This distribution builds on the original colors.js library by Marak Squires and
+additional functionality by Sindre Sorhus and DABH. Original copyright notices
+and the MIT license are preserved in [LICENSE](LICENSE).
+
 [![Build Status](https://github.com/DABH/colors.js/actions/workflows/ci.yml/badge.svg)](https://github.com/DABH/colors.js/actions/workflows/ci.yml)
 [![version](https://img.shields.io/npm/v/@colors/colors.svg)](https://www.npmjs.org/package/@colors/colors)
 
