@@ -14,11 +14,15 @@ jobs:
   unit-tests:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         node:
           - 16
           - 18
           - 20
+          - 22
+          - 24
+          - 26
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -31,4 +35,4 @@ jobs:
       - name: Test
         run: npm test
       - name: TypeScript Test
-        run: npx --package typescript tsc
+        run: npm run test:types
