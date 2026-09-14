@@ -83,3 +83,6 @@ assert.equal(colors.yellow(undef), '\x1b[33mundefined\x1b[39m');
 
 // was failing:
 assert.equal(colors.red(null), '\x1b[31mnull\x1b[39m');
+
+assert.equal(colors.red.underline('astring'),
+  '\x1B[31m\x1B[4mastring\x1B[24m\x1B[39m');

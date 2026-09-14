@@ -89,3 +89,6 @@ colors.setTheme({custom: ['red', 'italic', 'inverse']});
 assert.equal(colors.custom(s),
     '\x1b[7m' + '\x1b[3m' + '\x1b[31m' + s +
   '\x1b[39m' + '\x1b[23m' + '\x1b[27m' );
+
+assert.equal('astring'.underline.red,
+  '\x1B[31m\x1B[4mastring\x1B[24m\x1B[39m');
